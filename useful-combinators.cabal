@@ -1,4 +1,4 @@
-Name:                Control.UsefulCombinators
+Name:                useful-combinators
 Version:             0.0.0.0
 Description:         Just a bunch of useful combinators and higher order functions.
 
@@ -26,7 +26,7 @@ Source-repository head
 
 Library
   
-  Build-depends:      base >= 3.0, 
+  Build-depends:      base >= 3.0 
   Exposed-modules:    Control.UsefulCombinators
   
-  Extensions: Trustworhy
+  Extensions: Trustworthy
