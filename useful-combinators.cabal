@@ -1,0 +1,32 @@
+Name:                Control.UsefulCombinators
+Version:             0.0.0.0
+Description:         Just a bunch of useful combinators and higher order functions.
+
+Synopsis:	     Just a bunch of useful combinators.
+
+Homepage:            https://github.com/mmirman/useful-combinators
+
+License:             GPL-3
+
+License-file:        LICENSE
+
+Author:              Matthew Mirman
+
+Maintainer:          Matthew Mirman <mmirman@andrew.cmu.edu>
+
+Category:            Data
+
+Build-type:          Simple
+
+Cabal-version:       >=1.6
+
+Source-repository head
+  Type:     git
+  Location: git://github.com/mmirman/useful-combinators.git
+
+Library
+  
+  Build-depends:      base >= 3.0, 
+  Exposed-modules:    Control.UsefulCombinators
+  
+  Extensions: Trustworhy
