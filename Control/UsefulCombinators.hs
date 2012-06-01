@@ -15,7 +15,7 @@ module Control.UsefulCombinators where
 
 -- | @'composeN' f n@ composes @f@ with itself @n@ times
 -- it has the invariant that @n '>=' 0@.
-composeN :: Num a => (b -> b) -> a -> b -> b
+composeN :: (Eq a, Num a) => (b -> b) -> a -> b -> b
 composeN _ 0 = id
 composeN f i = f . composeN f (i-1)
 
